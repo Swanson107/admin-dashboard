@@ -1,94 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="sidebar">
-        <div class="side-logo">
-            <h3>Dashboard</h3>
-        </div>
-        <div class="sidebar-container">
-            <h6 class="sidebar-item">Home</h6>
-            <h6 class="sidebar-item">Profile</h6>
-            <h6 class="sidebar-item">Messages</h6>
-            <h6 class="sidebar-item">History</h6>
-            <h6 class="sidebar-item">Tasks</h6>
-            <h6 class="sidebar-item">Communities</h6>
-        </div>
-        <div class="sidebar-container">
-            <h6 class="sidebar-item">Settings</h6>
-            <h6 class="sidebar-item">Support</h6>
-            <h6 class="sidebar-item">Privacy</h6>
-        </div>
+      <div class="side-logo">
+        <h3>Dashboard</h3>
+      </div>
+      <div class="sidebar-container">
+        <h6 class="sidebar-item">Home</h6>
+        <h6 class="sidebar-item">Profile</h6>
+        <h6 class="sidebar-item">Messages</h6>
+        <h6 class="sidebar-item">History</h6>
+        <h6 class="sidebar-item">Tasks</h6>
+        <h6 class="sidebar-item">Communities</h6>
+      </div>
+      <div class="sidebar-container">
+        <h6 class="sidebar-item">Settings</h6>
+        <h6 class="sidebar-item">Support</h6>
+        <h6 class="sidebar-item">Privacy</h6>
+      </div>
     </div>
     <div class="content-container">
-        <div class="header">
-            <div class="header-top">
-                <input id="search-input" type="text" placeholder="Search...">
-                <div class="header-top-alert">
-                    <p>Alerts</p>
-                    <p>Picture</p>
-                    <p>Thomas Swanson</p>
-                </div>
-            </div>
-            <div class="header-left">
-                <p>Picture</p>
-                <div class="welcome">
-                    <p>Welcome,</p>
-                    <h3>Thomas Swanson (@swanson)</h3>
-                </div>
-                <div class="buttons">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
-            </div>
+      <div class="header">
+        <div class="header-top">
+          <input id="search-input" type="text" placeholder="Search..." />
+          <div class="header-top-alert">
+            <p>Alerts</p>
+            <p>Picture</p>
+            <p>Thomas Swanson</p>
+          </div>
         </div>
-        <div class="content">
-            <div class="projects">
-                <h4>Your Projects</h4>
-                <div class="box">A box</div>
-                <div class="box">A 2nd Box</div>
-                <div class="box">A 3rd Box</div>
-                <div class="box">A 4th Box</div>
-                <div class="box">A 5th Box</div>
-                <div class="box">A 6th Box</div>
-            </div>
-            <div class="announce">
-                <h4>Announcements</h4>
-                <div class="ann-box">
-                    <h5>Site Maintenance</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Mauris pharetra et ultrices neque ornare aenean.</p>
-                </div>
-                <div class="ann-box">
-                    <h5>New Community Event</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Suspendisse ultrices gravida dictum fusce.</p>
-                </div>
-                <div class="ann-box">
-                    <h5>Updated Service Agreement</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Mattis nunc sed blandit libero volutpat sed.</p>
-                </div>
-            </div>
-            <div class="trending">
-                <h4>Trending</h4>
-                <div class="trend-box">Trend1</div>
-                <div class="trend-box">Trend2</div>
-                <div class="trend-box">Trend3</div>
-                <div class="trend-box">Trend4</div>
-            </div>
-
+        <div class="header-left">
+          <p>Picture</p>
+          <div class="welcome">
+            <p>Welcome,</p>
+            <h3>Thomas Swanson (@swanson)</h3>
+          </div>
+          <div class="buttons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
         </div>
+      </div>
+      <div class="content">
+        <div class="projects">
+          <h4>Your Projects</h4>
+          <div class="project-box">
+            <h5 class="project-title">Main Project</h5>
+            <p class="project-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Imperdiet sed euismod nisi porta lorem mollis aliquam.
+            </p>
+          </div>
+          <div class="project-box">
+            <h5 class="project-title">Side Project</h5>
+            <p class="project-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
+              arcu non odio euismod lacinia at. Sed libero enim sed faucibus.
+            </p>
+          </div>
+          <div class="project-box">
+            <h5 class="project-title">Fun App #1</h5>
+            <p class="project-desc">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit arcu
+              tristique, velit duis pharetra semper elementum congue at sapien,
+              dictum nunc netus convallis hac vel urna a.
+            </p>
+          </div>
+          <div class="project-box">
+            <h5 class="project-title">Crazy Idea #52</h5>
+            <p class="project-desc">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit, rutrum ad
+              himenaeos ridiculus metus quisque, vivamus taciti faucibus gravida
+              et libero. Aptent orci lacinia luctus nullam feugiat, platea netus
+              nulla curae praesent, sem senectus maecenas quis.
+            </p>
+          </div>
+          <div class="project-box">
+            <h5 class="project-title">The Next Big Thing</h5>
+            <p class="project-desc">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit tristique
+              sapien nam, varius gravida molestie sodales himenaeos per in
+              ullamcorper quam.
+            </p>
+          </div>
+          <div class="project-box">
+            <h5 class="project-title">Abandoned Project #85</h5>
+            <p class="project-desc">
+              Lorem ipsum dolor sit amet consectetur adipiscing, elit velit
+              dignissim congue sociosqu, dictumst volutpat eget fermentum a. Id
+              rhoncus feugiat nam sodales lacus morbi, curabitur at netus mi
+              suscipit, arcu lobortis sapien odio iaculis.
+            </p>
+          </div>
+        </div>
+        <div class="announce">
+          <h4>Announcements</h4>
+          <div class="ann-box">
+            <h5>Site Maintenance</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
+              pharetra et ultrices neque ornare aenean.
+            </p>
+          </div>
+          <div class="ann-box">
+            <h5>New Community Event</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Suspendisse ultrices gravida dictum fusce.
+            </p>
+          </div>
+          <div class="ann-box">
+            <h5>Updated Service Agreement</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis
+              nunc sed blandit libero volutpat sed.
+            </p>
+          </div>
+        </div>
+        <div class="trending">
+          <h4>Trending</h4>
+          <div class="trend-box">Trend1</div>
+          <div class="trend-box">Trend2</div>
+          <div class="trend-box">Trend3</div>
+          <div class="trend-box">Trend4</div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
