@@ -1,0 +1,18 @@
+
+html,
+body {
+    margin: auto;
+    background-color: dimgrey;
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
+
+.sidebar {
+    background-color: lightblue;
+    width: 100vw;
+    height: 100vh;;
+}
+
+.content-container {
+    background-color: lightgreen;
+}
