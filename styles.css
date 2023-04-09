@@ -4,7 +4,7 @@ body {
     margin: auto;
     background-color: dimgrey;
     height: 100vh;
-    width: 100vw;
+    width: 99.1vw;
     display: grid;
     grid-template-columns: 1fr 6fr;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -12,8 +12,6 @@ body {
 
 .sidebar {
     background-color: lightblue;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,46 +34,61 @@ body {
     flex-direction: column;
     justify-content: start;
     flex-wrap: wrap;
-    padding-left: 1em;
     background-color: rebeccapurple;
+    max-height: 75%;
 }
 
 .header-top {
-    margin-top : 20px;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #search-input {
+    margin-top: 1rem;
     width: 45%;
     height: 50%;
-    margin-right: em;
 }
 .header-top-alert{
     display: flex;
-    gap: 25px;
-    margin-left: 1em;
+    gap: 1rem;
 }
 
 
 .header-left {
     display: flex;
+    gap: 5rem;
 }
 
 .welcome {
-    margin-left : 4rem;
+    padding-left: 5rem;;
 }
 
 .buttons {
-    margin-left: 35%;
+    padding-left: 10rem;
     margin-top: 7%;
 }
 
 .content {
     display: grid;
-    grid-template-columns: 4fr 4fr;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: auto;
+}
+.announce {
+    grid-column-start: 2;
+}
+.trending {
+    grid-column-start: 2;
 }
 
 .projects {
     display: grid;
     grid-template-columns: 3fr 3fr;
+}
+#project-box1 {
+    grid-column-start: 1;
+}
+
+
+
+.ann-box {
+    max-width: 20rem;
 }
