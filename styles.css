@@ -13,12 +13,17 @@ body {
     grid-template-columns: 1fr 6fr;
 }
 
+img {
+    width: 20px;
+    height: 20px
+}
+
 .sidebar {
     background-color: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .side-logo {
@@ -28,14 +33,18 @@ body {
 .sidebar-container {
     background-color : white;
     width: 75%;
-    font-size : 1.4rem;
+    font-size : 1.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .sidebar-item {
-    background-color: lightskyblue;
+    display: flex;
+    justify-content: start;
+    gap: 25%;
+    max-width: 12rem;
+    width: 10rem;
 }
 
 .content-container {
@@ -134,7 +143,7 @@ body {
 
 .project-box {
     background-color: yellow;
-    max-height: 25%;
+    display: grid;
 }
 
 .announce-trending-container {
@@ -150,16 +159,16 @@ body {
 .announce {
     background-color: lightpink;
     width: 100%;
-    height: 80%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 0.25rem;
+    padding-bottom: 1rem;
+
 }
 
 .ann-box {
-    width: 75%;
+    width: 85%;
     background-color: lightsalmon;
     display: flex;
     flex-direction: column;
@@ -169,10 +178,15 @@ body {
 #announce-title {
     font-size: 0.9rem;
     font-weight: 1000;
+    margin-bottom: -2px;
 }
 .ann-box-title {
     font-weight: 800;
     background-color: aqua;
+    margin-bottom: -1px;
+}
+.ann-para {
+    background-color: aquamarine;
 }
 
 
@@ -183,17 +197,23 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 60%;
+    height: 75%;
+    padding-bottom: 1rem;
+    gap: 6px;
+}
+#trending-title {
+    font-weight: 1000;
+    font-size: 0.9rem;
+    margin-bottom: -2px;
 }
 
 .trending-box {
     background-color: lightyellow;
     width: 80%;
-    height: 20%;
+    height: 25%;
     display: grid;
     align-items: center;
-    grid-template-columns: 2fr 4fr;
-    grid-template-rows: 2fr 3fr;
+    grid-template-columns: 2fr 3fr;
 }
 
 .trending-icon {
@@ -203,7 +223,8 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 1em;
-    height: 35%;
+    height: 25%;
+    width: 50%;
 }
 
 .trending-para {
